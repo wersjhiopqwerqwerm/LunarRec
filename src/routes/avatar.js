@@ -1,3 +1,4 @@
+
 const express = require('express')
 const router = express.Router()
 const {loadAvatar, saveAvatar} = require("../avatar.js")
@@ -13,8 +14,8 @@ router.get(`/v3/items`, async (req, res) => {
     res.sendFile(path.resolve(`${__dirname}/../../shared-items/avataritems.txt`))
 })
 
-router.get('/v2/gifts', (req, res) => {
-    res.send("[]")
+    router.get('/v2/gifts', (req, res) => { 
+    res.send("[{\"Id\":1,\"AvatarItemDesc\":\"7a730848-ab20-445d-b416-1a72cab49324,,,\",\"Xp\":115,\"Message\":\"gift from coach\"}]")
 })
 
 /* POST REQUESTS */
@@ -27,5 +28,4 @@ router.post(`/v2/set`, async (req, res) => {
 router.get('/v2/gifts/generate', (req, res) => {
     res.send("[]")
 })
-
 module.exports = router
