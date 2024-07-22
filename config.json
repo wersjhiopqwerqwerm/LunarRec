@@ -6,18 +6,18 @@
         "owner": "Instance Owner",
         "website": "https://example.com"
     },
-    "logConnections": false,
-    "debugOutput": false,
-    "serverAddress":"http://localhost:2017",
+    "logConnections": true,
+    "debugOutput": true,
+    "serverAddress":"http://localhost:3000",
     "targetVersion": null,
-    "customPosters": false,
+    "customPosters": true,
     "allow2016AndEarly2017": false,
     "clearImageCacheOnLaunch": true,
-    "port": 2017,
-    "token_signature":"LunarRec_ReplaceMeWithSomethingElsePlz",
+    "port": 3000,
+    "token_signature":"askdfojasæokfaopka",
     "webhook":{
-        "console": "",
-        "reports": ""
+        "console": "https://discord.com/api/webhooks/1244561272364732508/WYLNpdmqkUD6E1Mh3C01Gzx8Pf6AVRcDFW3VS4s9zRidUhQs6xnUelMnuY6PxUubHXxT",
+        "reports": "https://discord.com/api/webhooks/1244561278719230032/-K8yRyTR3r69oe1SDFzvMOujBgbTZnku59ICIo1jQlUL9oJ4CjXldIa-FYD-BdsP0GJM"
     },
     "discord_bot":{
         "enabled": false,
