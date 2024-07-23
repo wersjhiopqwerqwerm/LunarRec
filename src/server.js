@@ -154,7 +154,7 @@ app.get('/api/activities/charades/v1/words', (req, res) => {
 })
 
 app.get('/api/messages/v2/get', (req, res) => {
-    res.send("[]")
+    res.send("[{\"Type\":100,\"Data\":\"this is the content of the message\"}]")
 })
 
 app.get('/api/config/v2', (req, res) => {
